@@ -2,7 +2,7 @@
 
 from app import app
 from models import db, Plant
-
+from flask_resful import Api,Reosurce
 with app.app_context():
 
     Plant.query.delete()
